@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "articles.html",
+    "href": "articles.html",
+    "title": "Articles",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Under construction."
+  },
+  {
+    "objectID": "about.html#bio",
+    "href": "about.html#bio",
+    "title": "About",
+    "section": "",
+    "text": "Under construction."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\n\nPh.D. in Mathematics, Stony Brook University, 2025-2029 (Expected)\nM.A. in Mathematics, University of Nebraska-Omaha, 2024-2025\nB.S. in Mathematics, University of Nebraska-Omaha, 2020-2023"
+  },
+  {
+    "objectID": "about.html#research-interests",
+    "href": "about.html#research-interests",
+    "title": "About",
+    "section": "Research Interests",
+    "text": "Research Interests\nBroadly speaking, I am interested in the applications of mathematical analysis, topology, and geometry in quantitative finance. Some specific topics of interest are:\n\nInformation geometry\n\\(H^\\infty\\) optimization\nNumerical methods for free-boundary partial differential equations"
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About",
+    "section": "Contact",
+    "text": "Contact\nEmail: jacob.white@stonybrook.edu"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Your Name",
+    "section": "",
+    "text": "I’m a first year PhD student interested in the applications of complex analysis and differential geometry to quantitative finance.\nI write about these topics on my blog."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "White, J, Baccouch, M, & Ryu, S. “Simulating the Steady Hemolymph Flow and Transient Perfusion in the Forewing Vein Netowrk of Drosophila using OpenFOAM.” Proceedings of the ASME 2025 Fluids Engineering Division Summer Meeting, 2025. DOI\nWhite, J, Hu, Y, Ryu, S, Kim, S, & Zhang, H. “Geometric Analysis of Insect Wing Vein Network.” Proceedings of the ASME 2022 Fluids Engineering Division Summer Meeting. Volume 2: Multiphase Flow (MFTC); Computational Fluid Dynamics (CFDTC); Micro and Nano Fluid Dynamics (MNFDTC)., 2022. DOI"
+  },
+  {
+    "objectID": "publications.html#conference-proceedings",
+    "href": "publications.html#conference-proceedings",
+    "title": "Publications",
+    "section": "",
+    "text": "White, J, Baccouch, M, & Ryu, S. “Simulating the Steady Hemolymph Flow and Transient Perfusion in the Forewing Vein Netowrk of Drosophila using OpenFOAM.” Proceedings of the ASME 2025 Fluids Engineering Division Summer Meeting, 2025. DOI\nWhite, J, Hu, Y, Ryu, S, Kim, S, & Zhang, H. “Geometric Analysis of Insect Wing Vein Network.” Proceedings of the ASME 2022 Fluids Engineering Division Summer Meeting. Volume 2: Multiphase Flow (MFTC); Computational Fluid Dynamics (CFDTC); Micro and Nano Fluid Dynamics (MNFDTC)., 2022. DOI"
+  },
+  {
+    "objectID": "publications.html#theses",
+    "href": "publications.html#theses",
+    "title": "Publications",
+    "section": "Theses",
+    "text": "Theses\n\nJacob White. “Computational Fluid Dynamics Modeling and Analysis of Hemolymph Flow in Insect Wing Vein Networks.” M.A. Thesis, University of Nebraska-Omaha, 2025."
+  }
+]
