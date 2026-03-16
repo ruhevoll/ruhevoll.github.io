@@ -1,7 +1,16 @@
 ---
-title: "Jacob White"
+title: "Your Name"
+subtitle: "PhD Student in Applied Mathematics & Statistics · Stony Brook University"
+about:
+  template: jolla       # minimalist profile layout
+  image: profile.jpg    # place your photo in the project root
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/ruhevoll
 ---
 
-This is a Quarto website.
+I'm a first year PhD student interested in the applications of
+complex analysis and differential geometry to quantitative finance.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I write about these topics on my [blog](articles.qmd).

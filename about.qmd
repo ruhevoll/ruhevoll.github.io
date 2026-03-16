@@ -2,4 +2,26 @@
 title: "About"
 ---
 
-About this site
+## Bio
+
+Under construction.
+
+## Education
+
+- **Ph.D. in Mathematics**, Stony Brook University, 2025-2029 (Expected)
+- **M.A. in Mathematics**, University of Nebraska-Omaha, 2024-2025
+- **B.S. in Mathematics**, University of Nebraska-Omaha, 2020-2023
+
+## Research Interests
+
+Broadly speaking, I am interested in the applications of mathematical analysis,
+topology, and geometry in quantitative finance. Some specific topics of interest
+are:
+
+- Information geometry
+- $H^\infty$ optimization
+- Numerical methods for free-boundary partial differential equations
+
+## Contact
+
+Email: jacob.white@stonybrook.edu

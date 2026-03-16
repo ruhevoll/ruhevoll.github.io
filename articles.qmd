@@ -1,0 +1,9 @@
+---
+title: "Articles"
+listing:
+  contents: posts        # looks for posts in the /posts directory
+  sort: "date desc"
+  type: default          # or "grid" for card layout
+  categories: true
+  fields: [date, title, description, categories]
+---

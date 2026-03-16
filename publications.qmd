@@ -1,0 +1,18 @@
+---
+title: "Publications"
+---
+
+## Conference Proceedings
+
+1. **White, J,** Baccouch, M, & Ryu, S. "Simulating the Steady Hemolymph Flow and Transient Perfusion in the Forewing Vein Netowrk of *Drosophila* using OpenFOAM."
+   *Proceedings of the ASME 2025 Fluids Engineering Division Summer Meeting*, 2025.
+   [DOI](https://doi.org/10.1115/FEDSM2025-158086)
+
+2. **White, J,** Hu, Y, Ryu, S, Kim, S, & Zhang, H. "Geometric Analysis of Insect Wing Vein Network."
+   *Proceedings of the ASME 2022 Fluids Engineering Division Summer Meeting. Volume 2: Multiphase Flow (MFTC); Computational Fluid Dynamics (CFDTC); Micro and Nano Fluid Dynamics (MNFDTC).*, 2022.
+   [DOI](https://doi.org/10.1115/FEDSM2022-87031)
+
+## Theses
+
+1. **Jacob White**. "Computational Fluid Dynamics Modeling and Analysis of Hemolymph Flow in Insect Wing Vein Networks."
+   M.A. Thesis, University of Nebraska-Omaha, 2025.
