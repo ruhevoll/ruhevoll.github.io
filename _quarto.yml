@@ -1,0 +1,42 @@
+project:
+  type: website
+  output-dir: docs     # GitHub Pages will serve from /docs
+
+website:
+  title: "Jacob White"
+  description: "PhD Student in Applied Mathematics and Statistics at Stony Brook University"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: blog.qmd
+        text: Blog
+      - href: publications.qmd
+        text: Publications
+      - href: about.qmd
+        text: About
+    right:
+      - icon: github
+        href: https://github.com/ruhevoll
+      - icon: envelope
+        href: mailto:jacob.white@stonybrook.edu
+
+  page-footer:
+    center: "© 2026 Jacob White. Built with [Quarto](https://quarto.org)."
+
+format:
+  html:
+    theme: cosmo          # clean, minimalist Bootstrap theme
+    css: styles.css       # custom overrides
+    toc: true
+    toc-depth: 3
+    code-fold: false      # show code by default; readers can toggle
+    code-tools: true      # adds a "Code" button for show/hide
+    highlight-style: github
+    mainfont: "Inter, system-ui, sans-serif"
+    fontsize: "1rem"
+    linestretch: 1.6
+    math: mathjax         # or katex — mathjax has broader LaTeX support
+
+execute:
+  freeze: auto            # only re-render notebooks when source changes
