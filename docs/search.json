@@ -4,7 +4,7 @@
     "href": "articles.html",
     "title": "Articles",
     "section": "",
-    "text": "No matching items"
+    "text": "Hardy Spaces, Inner-Outer Factorizations, and Finance\n\n\n\ncomplex-analysis\n\nhardy-spaces\n\nfinance\n\n\n\nAn introduction to how classical complex analysis connects to quantitative finance through Hardy space theory.\n\n\n\n\n\nMar 16, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -68,5 +68,19 @@
     "title": "Publications",
     "section": "Theses",
     "text": "Theses\n\nJacob White. “Computational Fluid Dynamics Modeling and Analysis of Hemolymph Flow in Insect Wing Vein Networks.” M.A. Thesis, University of Nebraska-Omaha, 2025."
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Hardy Spaces, Inner-Outer Factorizations, and Finance",
+    "section": "",
+    "text": "Recall that the Hardy space \\(H^2(\\mathbb{D})\\) consists of all analytic functions \\(f\\) on the unit disc \\(\\mathbb{D}\\) satisfying\n\\[\n\\sup_{0 &lt; r &lt; 1} \\int_0^{2\\pi} |f(re^{i\\theta})|^2 \\, \\frac{d\\theta}{2\\pi} &lt; \\infty.\n\\]\nA foundational result is the inner-outer factorization: every \\(f \\in H^2\\) can be written uniquely as\n\\[\nf = \\Theta \\cdot g\n\\]\nwhere \\(\\Theta\\) is an inner function (\\(|\\Theta(e^{i\\theta})| = 1\\) a.e.) and \\(g\\) is an outer function:\n\\[\ng(z) = c \\exp\\left( \\frac{1}{2\\pi} \\int_0^{2\\pi}\n\\frac{e^{i\\theta} + z}{e^{i\\theta} - z}\n\\log |f(e^{i\\theta})| \\, d\\theta \\right).\n\\]\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# Visualize a simple Blaschke factor (inner function)\ndef blaschke_factor(z, a):\n    \"\"\"Single Blaschke factor with zero at a.\"\"\"\n    return (z - a) / (1 - np.conj(a) * z)\n\ntheta = np.linspace(0, 2 * np.pi, 500)\nz_boundary = np.exp(1j * theta)\n\na = 0.5 + 0.3j  # zero inside the disc\n\nB_values = blaschke_factor(z_boundary, a)\n\nfig, axes = plt.subplots(1, 2, figsize=(12, 5))\n\n# |B(e^{i theta})| = 1 on the boundary\naxes[0].plot(theta, np.abs(B_values))\naxes[0].set_title(r'$|B(e^{i\\theta})|$ on $\\partial\\mathbb{D}$')\naxes[0].set_xlabel(r'$\\theta$')\naxes[0].set_ylim(0.95, 1.05)\naxes[0].axhline(y=1, color='red', linestyle='--', alpha=0.5)\n\n# Phase of B on the boundary\naxes[1].plot(theta, np.angle(B_values))\naxes[1].set_title(r'$\\arg B(e^{i\\theta})$')\naxes[1].set_xlabel(r'$\\theta$')\n\nplt.tight_layout()\nplt.show()"
+  },
+  {
+    "objectID": "posts/index.html#the-hardy-space-h2mathbbd",
+    "href": "posts/index.html#the-hardy-space-h2mathbbd",
+    "title": "Hardy Spaces, Inner-Outer Factorizations, and Finance",
+    "section": "",
+    "text": "Recall that the Hardy space \\(H^2(\\mathbb{D})\\) consists of all analytic functions \\(f\\) on the unit disc \\(\\mathbb{D}\\) satisfying\n\\[\n\\sup_{0 &lt; r &lt; 1} \\int_0^{2\\pi} |f(re^{i\\theta})|^2 \\, \\frac{d\\theta}{2\\pi} &lt; \\infty.\n\\]\nA foundational result is the inner-outer factorization: every \\(f \\in H^2\\) can be written uniquely as\n\\[\nf = \\Theta \\cdot g\n\\]\nwhere \\(\\Theta\\) is an inner function (\\(|\\Theta(e^{i\\theta})| = 1\\) a.e.) and \\(g\\) is an outer function:\n\\[\ng(z) = c \\exp\\left( \\frac{1}{2\\pi} \\int_0^{2\\pi}\n\\frac{e^{i\\theta} + z}{e^{i\\theta} - z}\n\\log |f(e^{i\\theta})| \\, d\\theta \\right).\n\\]\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# Visualize a simple Blaschke factor (inner function)\ndef blaschke_factor(z, a):\n    \"\"\"Single Blaschke factor with zero at a.\"\"\"\n    return (z - a) / (1 - np.conj(a) * z)\n\ntheta = np.linspace(0, 2 * np.pi, 500)\nz_boundary = np.exp(1j * theta)\n\na = 0.5 + 0.3j  # zero inside the disc\n\nB_values = blaschke_factor(z_boundary, a)\n\nfig, axes = plt.subplots(1, 2, figsize=(12, 5))\n\n# |B(e^{i theta})| = 1 on the boundary\naxes[0].plot(theta, np.abs(B_values))\naxes[0].set_title(r'$|B(e^{i\\theta})|$ on $\\partial\\mathbb{D}$')\naxes[0].set_xlabel(r'$\\theta$')\naxes[0].set_ylim(0.95, 1.05)\naxes[0].axhline(y=1, color='red', linestyle='--', alpha=0.5)\n\n# Phase of B on the boundary\naxes[1].plot(theta, np.angle(B_values))\naxes[1].set_title(r'$\\arg B(e^{i\\theta})$')\naxes[1].set_xlabel(r'$\\theta$')\n\nplt.tight_layout()\nplt.show()"
   }
 ]
