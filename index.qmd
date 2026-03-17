@@ -13,4 +13,4 @@ about:
 I'm a first year PhD student interested in the applications of
 complex analysis and differential geometry to quantitative finance.
 
-I write about these topics on my [blog](articles.qmd).
+I write about topics I'm interested in [here](articles.qmd).
