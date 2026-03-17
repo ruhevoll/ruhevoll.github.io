@@ -1,6 +1,6 @@
 ---
-title: "Your Name"
-subtitle: "PhD Student in Applied Mathematics & Statistics · Stony Brook University"
+title: "Jacob White"
+subtitle: "PhD Student in Applied Mathematics & Statistics at Stony Brook University"
 about:
   template: jolla       # minimalist profile layout
   image: profile.jpg    # place your photo in the project root

@@ -2,10 +2,6 @@
 title: "About"
 ---
 
-## Bio
-
-Under construction.
-
 ## Education
 
 - **Ph.D. in Mathematics**, Stony Brook University, 2025-2029 (Expected)
@@ -18,9 +14,18 @@ Broadly speaking, I am interested in the applications of mathematical analysis,
 topology, and geometry in quantitative finance. Some specific topics of interest
 are:
 
-- Information geometry
-- $H^\infty$ optimization
-- Numerical methods for free-boundary partial differential equations
+- [$H^\infty$ control and optimization](https://en.wikipedia.org/wiki/H-infinity_methods_in_control_theory)
+- [Information geometry](https://en.wikipedia.org/wiki/Information_geometry)
+- [Numerical methods for obstacle problems](https://en.wikipedia.org/wiki/Obstacle_problem#Generalizations)
+
+My interest in $H^\infty$ control theory stems from my research work with Dr. Valentin Matache during my undergrad at UNO, where I studied composition operators on Hardy spaces and Pick interpolation.
+
+More recently, my colleague, Nicholas Christophides, and I, attempted to incorportate an FDM approach solving a free-boundary PDE modeling option pricing with proportional transacation costs for a [class project](https://github.com/ruhevoll/ams516project/blob/main/Executive%20Summary.pdf) in order to validate the results produced by solving the FBPDE using physics-informed neural networks (PINN). The free-boundary PDE of our interest
+was equivalent to a double-obstacle problem.
+
+Otherwise, my interest in information geometry is due to a long-time enjoyment of studying topology and geometry.
+
+I anticipate my work will focus on one of the three subjects above as I advance through the PhD program.
 
 ## Contact
 

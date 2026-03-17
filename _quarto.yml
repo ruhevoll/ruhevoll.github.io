@@ -22,7 +22,7 @@ website:
         href: mailto:jacob.white@stonybrook.edu
 
   page-footer:
-    center: "© 2026 Jacob White. Built with [Quarto](https://quarto.org)."
+    center: "© 2026 Jacob White"
 
 format:
   html:
@@ -31,7 +31,7 @@ format:
     toc: true
     toc-depth: 3
     code-fold: false      # show code by default; readers can toggle
-    code-tools: true      # adds a "Code" button for show/hide
+    code-tools: false      # adds a "Code" button for show/hide
     highlight-style: github
     mainfont: "Inter, system-ui, sans-serif"
     fontsize: "1rem"
